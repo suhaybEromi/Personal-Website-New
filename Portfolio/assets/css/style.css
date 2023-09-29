@@ -2,17 +2,12 @@
     background-color: black !important;
     color: white !important;
 }
-
-
 .ww {
     width: 350px !important;
 }
-
 .imgg {
     margin-left: 80px;
 }
-
-
 /* NOTE Start */
 /* Typing Start */
 #typewriter {
@@ -20,37 +15,29 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
     font-weight: bold !important;
 }
-
 #typewriter2 {
     color: #0073efa1;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
     font-weight: bold !important;
 }
-
 #cursor {
     color: #0072ef;
     animation: blink 1s linear infinite;
 }
-
 #cursor2 {
     color: #0072ef;
     animation: blink 1s linear infinite;
 }
-
 @keyframes blink {
     0% {
         opacity: 0%;
     }
-
     50% {
         opacity: 0%;
     }
 }
-
 /* Typing End */
 /* NOTE End */
-
-
 
 /* NOTE Start */
 /* Toggle Start */
@@ -58,7 +45,6 @@
 .navbar-toggler {
     border: 0 !important;
 }
-
 .navbar-toggler:focus,
 .navbar-toggler:active,
 .navbar-toggler-icon:focus {
@@ -66,8 +52,6 @@
     box-shadow: none !important;
     border: 0 !important;
 }
-
-/* Lines of the Toggler */
 .toggler-icon {
     width: 30px;
     height: 3px;
@@ -75,50 +59,33 @@
     display: block;
     transition: all 0.2s;
 }
-
-/* Adds Space between the lines */
 .middle-bar {
     margin: 5px auto;
 }
-
-/* State when navbar is opened (START) */
 .navbar-toggler .top-bar {
     transform: rotate(45deg);
     transform-origin: 10% 10%;
 }
-
 .navbar-toggler .middle-bar {
     opacity: 0;
     filter: alpha(opacity=0);
 }
-
 .navbar-toggler .bottom-bar {
     transform: rotate(-45deg);
     transform-origin: 10% 90%;
 }
-
-/* State when navbar is opened (END) */
-
-/* State when navbar is collapsed (START) */
 .navbar-toggler.collapsed .top-bar {
     transform: rotate(0);
 }
-
 .navbar-toggler.collapsed .middle-bar {
     opacity: 1;
     filter: alpha(opacity=100);
 }
-
 .navbar-toggler.collapsed .bottom-bar {
     transform: rotate(0);
 }
-
-/* State when navbar is collapsed (END) */
-
-/* Color of Toggler when collapsed */
 .navbar-toggler.collapsed .toggler-icon {
     background-color: #777777;
 }
-
 /* Toggle End */
 /* NOTE End */
