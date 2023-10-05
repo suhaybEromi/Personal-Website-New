@@ -26,7 +26,9 @@
 
 .linkWebsite {
     margin: 75px !important;
-    font-size: 20px !important;
+    font-size: 18px !important;
+    color: white !important;
+    font-weight: bold !important;
 }
 
 .linkWebsite:hover {
@@ -34,6 +36,9 @@
     color: white !important;
 }
 
+.indexLink {
+    margin-left: 65px !important;
+}
 
 /* NOTE Start */
 /* Typing Start */
