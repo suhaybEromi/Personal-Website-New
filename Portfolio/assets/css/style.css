@@ -24,6 +24,16 @@
     height: 160px !important;
 }
 
+.linkWebsite {
+    margin: 75px !important;
+    font-size: 20px !important;
+}
+
+.linkWebsite:hover {
+    text-decoration: underline !important;
+    color: white !important;
+}
+
 
 /* NOTE Start */
 /* Typing Start */
